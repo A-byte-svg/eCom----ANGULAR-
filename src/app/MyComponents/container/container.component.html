@@ -1,0 +1,27 @@
+<div class="eCom-Product-Container">
+  <app-search (searchTextChanged)="setSearchText($event)"></app-search>
+  <product-list [searchText]="searchText" #productListComponent></product-list>
+  <product-detail
+    *ngIf="productListComponent.selectedProduct"
+    [productListComp]="productListComponent"
+  ></product-detail>
+
+  <div class="eCom-featured-products">
+    <div class="eCom-featured-product-heading">
+      <h1>Latest Arrival in Popular Brands</h1>
+    </div>
+
+    <featured-brands>
+      <h3 class="title">New Arrivals in Nike</h3>
+      <button class="call-to-action">New Arrivals in Nike</button>
+    </featured-brands>
+    <featured-brands>
+      <h3 class="title">New Arrivals in Reebok</h3>
+      <button class="call-to-action">New Arrivals in Reebok</button>
+    </featured-brands>
+    <featured-brands>
+      <h3 class="title">New Arrivals in Adidas</h3>
+      <button class="call-to-action">New Arrivals in Adidas</button>
+    </featured-brands>
+  </div>
+</div>

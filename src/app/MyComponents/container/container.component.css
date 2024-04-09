@@ -1,0 +1,32 @@
+.eCom-Product-Container {
+  margin: 20px auto;
+  padding: 0 25vh;
+}
+
+.eCom-featured-products {
+  background-color: black;
+  padding: 20px 10px;
+  display: flex;
+}
+.eCom-featured-product-heading{
+width: 320px;
+margin: 10px 10px;
+padding: 20px 30px;
+color: #fff;
+}
+
+.title,
+.call-to-action {
+  margin: 10px 0px;
+}
+
+.call-to-action {
+  background-color: #000000;
+  color: #fff;
+  width: 1005;
+  padding: 10px 0px;
+  border: none;
+  outline: 0;
+  padding: 12px 16px;
+  border-radius: 4px;
+}

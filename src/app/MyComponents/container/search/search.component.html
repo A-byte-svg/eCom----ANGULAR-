@@ -1,0 +1,23 @@
+<div class="eCom-search-product">
+  <input
+    class="eCom-search-product-input"
+    placeholder="What are You Looking For?"
+    #searchInput
+  />
+  <button class="btn btn-search" (click)=" updateSearchText()">Search</button>
+</div>
+
+<div class="eCom-search-result-for">
+  <p *ngIf="searchText != ''">
+    <strong>Search Result for : </strong>{{ searchText }}
+  </p>
+</div>
+
+<!-- [(ngModel)]="searchText" -->
+<!-- (input)="onSearchTextChanged()" -
+[ngClass]="{
+  btn: true,
+  'btn-search': searchText,
+  'btn-search-disabled': !searchText
+}"
+[disabled]="!searchText"-->

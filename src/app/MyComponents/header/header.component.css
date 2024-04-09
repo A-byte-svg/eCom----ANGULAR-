@@ -1,0 +1,27 @@
+
+.eCom-header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  border-bottom: rgb(0, 0, 0) 3px solid;
+}
+
+.eCom-logo {
+  padding: 1.5vh 8vh;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  font-family: "Concert One", cursive;
+  width: 20%;
+}
+
+.eCom-header-nav {
+
+  width: 80%;
+  padding: 1vh 2vh;
+}
+
+.eCom-bottom-bar {
+  display: flex;
+}
